@@ -161,7 +161,7 @@
                 <div class="container mt-5">
                     <h1 class="text-center text-light">Contact Me</h1>
                     <div class="border border-2 border-info shadow-lg p-2 bg-light">
-                         <form name="contact" data-netlify="true">
+                         <form name="contact" data-netlify="true" data-netlify-recaptcha="">
                              <div class="row">
                                  <div class="col">
                                      <label class="form-label">First Name</label>
@@ -194,6 +194,7 @@
                                      <textarea type="text"name="Message" class="form-control" placeholder="Message" aria-label="message" required></textarea>
                                  </div>
                              </div>
+                             <div class="mb-3" data-netlify-recaptcha="true"></div>
                              <button type="submit" class="btn btn-primary mt-2">Submit Your Message</button>
                          </form>
                     </div>
